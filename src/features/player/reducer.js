@@ -8,7 +8,7 @@ const playerReducer = (state=initialState, action) => {
     switch(action.type) {
         case 'MOVE_PLAYER':
             return {
-                ...action.payload,
+                ...action.payload
             }
         default:
             return state;
